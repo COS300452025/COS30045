@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-page="home">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EnergyWise Appliances — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" id="logoLink" class="brand" aria-label="Go to Home" data-route="index.html">
+        <svg class="logo" width="32" height="32" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M11 2h2v10h-2z"></path>
+          <path fill="currentColor" d="M12 22a9.99 9.99 0 0 1-7.07-2.93C2.4 16.54 2.1 12.6 4.1 9.5a8.99 8.99 0 0 1 3.59-3.1l.87 1.8A7 7 0 1 0 17.44 8l.87-1.6a9 9 0 0 1 3.19 3.1c2.06 3.15 1.86 7.25-.52 10.07A10 10 0 0 1 12 22Z"/>
+        </svg>
+        <span class="brand-text">EnergyWise</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" data-route="index.html" class="nav-link">Home</a></li>
+          <li><a href="televisions.html" data-route="televisions.html" class="nav-link">Televisions</a></li>
+          <li><a href="about.html" data-route="about.html" class="nav-link">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <section class="hero">
+      <h1>Smarter Appliance Energy Choices</h1>
+      <p>
+        Learn how appliance energy consumption affects household bills in the Australian market.
+        Understand Energy Rating Labels, kWh/year, and how usage patterns and tariffs change costs.
+      </p>
+      <div class="cta-row">
+        <a href="televisions.html" class="btn" data-route="televisions.html">Compare Televisions</a>
+        <a href="about.html" class="btn btn-ghost" data-route="about.html">About This Site</a>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h3>Energy Rating Labels (AU)</h3>
+        <p>
+          Many appliances in Australia show a star rating and an estimated annual energy use in kWh.
+          Lower kWh/year generally means lower running costs over time.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Tariffs & Usage</h3>
+        <p>
+          Your cost depends on your electricity tariff (A$ per kWh) and how long you use the appliance.
+          Small daily decisions add up across a year.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Right-Sizing Matters</h3>
+        <p>
+          Bigger screens and high brightness can draw more power. Compare models by kWh/year,
+          not just by features and price.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span class="year"></span> <strong>Your Name</strong>. Built with HTML, CSS & JavaScript.
+      Acknowledgement: GenAI (ChatGPT) assisted in code scaffolding and placeholder content.</p>
+    </div>
+  </footer>
+</body>
+</html>
